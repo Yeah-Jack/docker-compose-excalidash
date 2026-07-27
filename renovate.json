@@ -3,12 +3,5 @@
   "extends": [
     "config:recommended"
   ],
-  "packageRules": [
-    {
-      "matchDatasources": [
-        "docker"
-      ],
-      "minimumReleaseAge": "3 days"
-    }
-  ]
+  "minimumReleaseAge": "3 days"
 }
