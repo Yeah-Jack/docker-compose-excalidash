@@ -5,7 +5,7 @@ services:
     environment:
       - DATABASE_PROVIDER=sqlite
       - DATABASE_URL=file:/app/prisma/dev.db
-      - FRONTEND_URL=https://excalidash.yeahjack.abrdns.com
+      - FRONTEND_URL=${FRONTEND_URL}
       - PORT=8000
       - NODE_ENV=production
       - AUTH_MODE=local
